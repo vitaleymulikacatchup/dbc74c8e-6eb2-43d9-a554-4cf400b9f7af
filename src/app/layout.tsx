@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     title: 'RetroMemeCoin — nostalgic memecoin, simple buy steps',
     description: 'RetroMemeCoin blends arcade-era nostalgia with modern crypto. Clear buy steps, transparent tokenomics, and a friendly community vibe.',
     type: 'website',
-    url: '/',
+    url: 'http://localhost:3000',
     siteName: 'RetroMemeCoin',
     images: [{
       url: '/images/logo.svg',
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     images: ['/images/logo.svg']
   },
   robots: { index: true, follow: true },
-  icons: { url: '/favicon.ico' }
+  icons: [{ url: '/favicon.ico' }]
 };
 
 export default function RootLayout({
