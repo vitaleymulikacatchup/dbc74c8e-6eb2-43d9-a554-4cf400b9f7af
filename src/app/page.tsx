@@ -55,9 +55,9 @@ export default function Home() {
           title="Tokenomics Overview"
           description="Understanding the key metrics of RetroMemeCoin"
           kpiItems={[
-            { value: "1M", description: "Total Supply", icon: LucideIcon },
-            { value: "500K", description: "Market Cap", icon: LucideIcon },
-            { value: "300K", description: "Liquidity", icon: LucideIcon }
+            { value: "1M", description: "Total Supply", icon: { name: "LucideIcon" } },
+            { value: "500K", description: "Market Cap", icon: { name: "LucideIcon" } },
+            { value: "300K", description: "Liquidity", icon: { name: "LucideIcon" } }
           ]}
         />
       </div>
